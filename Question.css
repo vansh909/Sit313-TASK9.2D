@@ -1,0 +1,127 @@
+/* .input{
+    position: relative;
+    width: 1405px;
+}
+.abst{
+    margin-top: 10px;
+}
+.abst_input{
+    position: relative;
+    width: 1436px;
+    height: 150px;
+}
+.art{
+    margin-top: 10px;
+}
+.art_input{
+    position: relative;
+    width: 1436px;
+    height: 150px;
+}
+.tags{
+    margin-top: 30px;
+}
+.tags_input{
+    position: relative;
+    width: 1380px; 
+}
+.Container{
+    margin-left: 10px;
+}
+
+.btn_1{
+    position: relative;
+    float:right;
+    right:30px; 
+    top: 14px;
+    width:40px;
+} */
+
+/* Update input styles */
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .abst_input, .art_input {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .tags_input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Adjust margin and padding */
+  .abst, .art {
+    margin-top: 20px;
+  }
+  
+  .tags {
+    margin-top: 30px;
+  }
+  
+  .Container {
+    margin: 10px;
+  }
+  
+  /* Style the button */
+  .btn_1 {
+    float: right;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn_1:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Update the heading style */
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Update form style */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Update file input style */
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  /* Additional styling for better appearance */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Add a border to form */
+  .form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
